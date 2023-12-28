@@ -3,13 +3,15 @@ html {
     background-color: rgb(26 26 26);
 }
 
+header div {
+  color: beige;
+  margin-top: 10px;
+  text-align: center;
+}
+
   /*
 
-header1 {
-    color: beige;
-    margin-top: 10px;
-    text-align: center;
-  }
+
 
   header div {
     margin-bottom: -65px;
