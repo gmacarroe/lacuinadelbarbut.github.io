@@ -9,8 +9,23 @@ header div {
   text-align: center;
 }
 
-  /*
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -25px;
+}
 
+header nav a {
+  color: beige;
+  margin: 25px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  animation: pulse 3 timing-function delay iteration-count direction fill-mode;
+}
+  /*
 
 
   header div {
