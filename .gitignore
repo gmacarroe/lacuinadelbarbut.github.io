@@ -1,0 +1,4 @@
+# Amb un /NOMCARPETA o .arxiu li direm quines carpetes o arxius no volem que puji a github
+# Exemple:
+# /images
+# .env
