@@ -44,17 +44,6 @@ a:visited {
   color: white;
 }
 
-/*
-
-a:active { text-decoration: none; }
-*/
-
-/*
-  header div h2 {
-    margin-left: 55px;
-    margin-right: 55px;
-  }
-  */
 
 /* Main */
 
@@ -67,4 +56,25 @@ a:active { text-decoration: none; }
 
 main div img {
   width: 100%;
+}
+
+/* Footer */
+
+.footer_logos {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-top: 5px;
+  margin-right: 1vw;
+}
+
+.footer_img {
+  width: 30px;
+  margin-right: 20px;
+  transition: all .5s ease-in-out;
+  transform: scale(1);
+}
+
+.footer_img:hover {
+  transform: scale(1.3);
 }
