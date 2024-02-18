@@ -12,6 +12,12 @@ header h2 {
   text-align: center;
 }
 
+@media (max-width: 600px) {
+  h2.responsive {
+    font-size: 12px;
+  }
+}
+
 .header_div {
   color: white;
   margin-top: 10px;
