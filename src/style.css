@@ -1,82 +1,79 @@
 html {
-    font-family: 'Lucida Sans Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(26 26 26);
+  font-family: 'Lucida Sans Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(26 26 26);
 }
-
 header div {
-  color: beige;
-  margin-top: 10px;
-  text-align: center;
+color: beige;
+margin-top: 10px;
+text-align: center;
 }
 
+/*
 header nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: -25px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: -25px;
 }
 
 header nav a {
-  color: beige;
-  margin: 25px;
-  text-decoration: none;
+color: beige;
+margin: 25px;
+text-decoration: none;
 }
 
 header nav a:hover {
-  animation: pulse 3 timing-function delay iteration-count direction fill-mode;
+animation: pulse 3 timing-function delay iteration-count direction fill-mode;
 }
-  /*
+/*
+header div {
+  margin-bottom: -65px;
+  text-align: right;
+  margin-right: 10px;
+}
 
+body {
+  display: flex;
+  flex-direction: column;
+}
 
-  header div {
-    margin-bottom: -65px;
-    text-align: right;
-    margin-right: 10px;
-  }
-  
-  body {
+#pages1, #pages2 {
     display: flex;
-    flex-direction: column;
-  }
-  
-  #pages1, #pages2 {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-  }
-  
-  #pages1 div, #pages2 div {
-      border: 2px solid beige;
-      border-radius: 10px;
-      margin: 35px;
-  }
-  
-  h1, h2, h3 {
-      text-align: center;
-  }
-  
-  
-  h1 {
-      font-size: 86px;
-      font: bold;
-      margin-bottom: 0px;
-      margin-top: 0px;
-  }
-  
-  h2 {
-      font-size: 34px;
-      font: italic;
-      margin-top: 0px;
-  }
-  
-  h3, h4 {
-      font-size: 24px;
-      font: bold;
-  }
-  
-  h4, h5 {
-    text-align: left;
-    color: beige;
-  }
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-  */
+#pages1 div, #pages2 div {
+    border: 2px solid beige;
+    border-radius: 10px;
+    margin: 35px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 86px;
+    font: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: 34px;
+    font: italic;
+    margin-top: 0px;
+}
+
+h3, h4 {
+    font-size: 24px;
+    font: bold;
+}
+
+h4, h5 {
+  text-align: left;
+  color: beige;
+}
+*/
