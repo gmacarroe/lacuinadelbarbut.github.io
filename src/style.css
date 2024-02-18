@@ -5,14 +5,60 @@ html {
 
 /* Index style */
 
-header div {
-color: beige;
-margin-top: 10px;
-margin-bottom: 30px;
-text-align: center;
+/* Header */
+
+header h2 {
+  color: white;
+  text-align: center;
 }
 
-main div {
+.header_div {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+.header_nav h2 {
+  transition: all .5s ease-in-out;
+  transform: scale(1);
+}
+
+.header_nav h2:hover {
+  transform: scale(1.4);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+/*
+
+a:active { text-decoration: none; }
+*/
+
+/*
+  header div h2 {
+    margin-left: 55px;
+    margin-right: 55px;
+  }
+  */
+
+/* Main */
+
+.main_img {
   width: 45vw;
   max-width: 1000px;
   min-width: 250px;
@@ -22,4 +68,3 @@ main div {
 main div img {
   width: 100%;
 }
-
