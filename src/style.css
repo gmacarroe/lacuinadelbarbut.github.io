@@ -3,10 +3,12 @@ html {
   background-color: rgb(26 26 26);
 }
 
+/* Index style */
+
 header div {
 color: beige;
 margin-top: 10px;
-margin-bottom: 55px;
+margin-bottom: 30px;
 text-align: center;
 }
 
