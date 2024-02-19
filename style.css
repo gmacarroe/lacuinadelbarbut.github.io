@@ -5,9 +5,9 @@ html {
 
 /* Index style */
 
-/* Header */
-
 /* Body */
+
+/* Header */
 
 header h2 {
   color: white;
@@ -82,7 +82,7 @@ a:active {
 .main_img {
   width: 40vw;
   max-width: 1000px;
-  min-width: 250px;
+  min-width: 350px;
   margin: auto;
 }
 
@@ -91,6 +91,15 @@ main div img {
 }
 
 /* Footer */
+
+@media (max-width: 800px) {
+  footer div.responsive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
 
 .footer_logos {
   display: flex;
