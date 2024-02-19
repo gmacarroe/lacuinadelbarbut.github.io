@@ -120,3 +120,12 @@ main div img {
 .footer_img:hover {
   transform: scale(1.3);
 }
+
+/* Botiga style */
+
+.footer_section {
+  position: absolute;
+  width: 95%;
+  bottom: 50px;
+  height: 10px;
+}
