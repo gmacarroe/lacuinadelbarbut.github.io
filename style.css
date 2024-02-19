@@ -82,7 +82,7 @@ a:active {
 .main_img {
   width: 40vw;
   max-width: 1000px;
-  min-width: 350px;
+  min-width: 300px;
   margin: auto;
 }
 
@@ -98,6 +98,7 @@ main div img {
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+    margin-right: -10px;
   }
 }
 
