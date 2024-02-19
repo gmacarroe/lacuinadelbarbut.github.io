@@ -4,6 +4,9 @@
     <title>lacuinadelbarbut</title>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script src="array_receptes.js"></script>
 </head>
 
 <body>
@@ -11,9 +14,13 @@
         <div>
             <h2>Les nostres receptes</h2>
         </div>
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <input type="text" id="searchInput" placeholder="Cerca la recepta">
+            <div id="searchResults"></div>
+        </div>
     </header>
     
-    <main>
+    <main id="contenidor_receptes">
     </main>
 
     <footer class="footer_section">

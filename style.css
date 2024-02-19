@@ -1,5 +1,6 @@
 html {
   font-family: 'Lucida Sans Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
   background-color: rgb(26 26 26);
 }
 
@@ -129,3 +130,6 @@ main div img {
   bottom: 50px;
   height: 10px;
 }
+
+/* Receptes style */
+
