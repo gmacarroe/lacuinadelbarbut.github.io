@@ -69,8 +69,10 @@ a:active {
   main.responsive {
     width: 70vw;
     min-width: 250px;
-    margin: auto;
-    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
