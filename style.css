@@ -14,9 +14,9 @@ header h2 {
 
 @media (max-width: 800px) {
   h2.responsive {
-    font-size: 14px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 }
 
@@ -65,10 +65,19 @@ a:active {
 
 /* Main */
 
+@media (max-width: 800px) {
+  main.responsive {
+    width: 70vw;
+    min-width: 250px;
+    margin: auto;
+    align-items: center;
+  }
+}
+
 .main_img {
   width: 40vw;
   max-width: 1000px;
-  min-width: 250px;
+  min-width: 450px;
   margin: auto;
 }
 
