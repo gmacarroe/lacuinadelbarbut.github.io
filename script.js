@@ -3,15 +3,16 @@ $(document).ready(function() {
         var searchText = $(this).val().toLowerCase();
         $('#searchResults').empty();
         if (searchText.length >= 3) {
-            $('p').each(function() {
+            $('h3, p').each(function() {
                 var text = $(this).text().toLowerCase();
                 if (text.includes(searchText)) {
                     $('#searchResults').append($(this).clone());
                 }
-            });
+            });          
         }
     });
 });
+
 
 document.addEventListener('DOMContentLoaded', function() {
     mostrarReceptes();
