@@ -133,3 +133,31 @@ main div img {
 
 /* Receptes style */
 
+.receptes_header_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+
+#searchInput {
+  background-color: whitesmoke;
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+
+.receptes_main_div {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  text-align: center;
+  justify-content: center;
+}
+
+.receptes_main_div img {
+  width: 275px;
+  border-radius: 5%;
+}
