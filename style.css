@@ -125,7 +125,7 @@ main div img {
 /* Botiga style */
 
 .footer_section {
-  position: absolute;
+  position: fixed;
   width: 95%;
   bottom: 50px;
   height: 10px;
@@ -155,9 +155,18 @@ main div img {
   gap: 100px;
   text-align: center;
   justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .receptes_main_div img {
   width: 275px;
   border-radius: 5%;
+  transition: all.5s ease-in-out;
+  transform: scale(1);
+}
+
+.receptes_main_div img:hover {
+  transform: scale(1.15);
+  cursor: pointer;
 }

@@ -3,10 +3,10 @@ $(document).ready(function () {
         var searchText = $(this).val().toLowerCase();
         $('#searchResults').empty();
         if (searchText.length >= 3) {
-            $('h3').each(function () {
+            $('.recepta h3').each(function () {
                 var text = $(this).text().toLowerCase();
                 if (text.includes(searchText)) {
-                    $('#searchResults').append($(this).clone());
+                    $('#searchResults').append($(this).closest('.recepta').clone());
                 }
             });
         }
@@ -36,5 +36,11 @@ function mostrarReceptes() {
         receptaElement.appendChild(titleElement);
 
         container.appendChild(receptaElement);
+
+        // Afegeix un event listener al div de la recepta per a l'acció de clic
+        receptaElement.addEventListener('click', function() {
+            // Redirigeix a la pàgina HTML corresponent
+            window.location.href = 'receptes/' + recepta.titol.toLowerCase().replace(/ /g, '_') + '.html';
+        });
     });
 }

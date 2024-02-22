@@ -4,7 +4,7 @@ var receptes = [
         imatge: "images/receptes/orada_papillota.jpeg"
     },
     {
-        titol: "Porro escalivat amb salsa i bacó",
+        titol: "Porro escalivat amb salsa",
         imatge: "images/receptes/porro_escalivat.jpeg"
     },
     {
@@ -24,7 +24,7 @@ var receptes = [
         imatge: "images/receptes/olla_aranesa.jpeg"
     },
     {
-        titol: "Panacotta de torró amb escuma de torró",
+        titol: "Panacotta de torró",
         imatge: "images/receptes/panacotta_torro.jpeg"
     },
     // Més receptes...
