@@ -25,6 +25,24 @@ header h2 {
   }
 }
 
+main h4 {
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  h4.responsive {
+    font-size: 10px;
+  }
+}
+
+main p {
+  color: white;
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .header_div {
   color: white;
   margin-top: 10px;
@@ -169,4 +187,34 @@ main div img {
 .receptes_main_div img:hover {
   transform: scale(1.15);
   cursor: pointer;
+}
+
+.receptes_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.receptes_img {
+  margin-left: 10%;
+  margin-top: 5%;
+  max-width: 80%;
+}
+
+.receptes_img img {
+  border-radius: 15px;
+}
+
+.receptes_txt {
+  margin-top: 3%;
+  margin-left: -5%;
+  margin-right: 5%;
+  text-align: justify;
+}
+
+.receptes_txt ul {
+  margin-left: 45px;
+}
+
+.receptes_txt ol {
+  margin-left: 15px;
 }
