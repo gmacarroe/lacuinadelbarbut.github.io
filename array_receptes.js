@@ -1,63 +1,31 @@
 var receptes = [
     {
-        titol: "Recepta 1: Orada a la papillota",
-        descripcio: "Descripció de la recepta 1",
+        titol: "Orada a la papillota",
         imatge: "images/receptes/orada_papillota.jpeg"
     },
     {
-        titol: "Recepta 2: Pà amb formatge",
-        descripcio: "Descripció de la recepta 2",
-        imatge: "imatge2.jpg"
+        titol: "Porro escalivat amb salsa i bacó",
+        imatge: "images/receptes/porro_escalivat.jpeg"
     },
     {
-        titol: "Recepta 3: Botifarra amb seques",
-        descripcio: "Descripció de la recepta 3",
-        imatge: "imatge3.jpg"
+        titol: "Peus de porc amb nap negre",
+        imatge: "images/receptes/peusporc_napnegre.jpeg"
     },
     {
-        titol: "Recepta 4: Cigrons amb arròs",
-        descripcio: "Descripció de la recepta 4",
-        imatge: "imatge4.jpg"
+        titol: "Crema de llimona",
+        imatge: "images/receptes/crema_llimona.jpeg"
     },
     {
-        titol: "Recepta 5: Llenties amb xoriç",
-        descripcio: "Descripció de la recepta 5",
-        imatge: "imatge5.jpg"
+        titol: "Conserva de carxofes",
+        imatge: "images/receptes/conserva_carxofes.jpeg"
     },
     {
-        titol: "Recepta 6: Flam amb nata",
-        descripcio: "Descripció de la recepta 6",
-        imatge: "imatge6.jpg"
+        titol: "Olla aranesa",
+        imatge: "images/receptes/olla_aranesa.jpeg"
     },
     {
-        titol: "Recepta 1: Orada a la planxa",
-        descripcio: "Descripció de la recepta 1",
-        imatge: "imatge1.jpg"
-    },
-    {
-        titol: "Recepta 2: Pà amb formatge",
-        descripcio: "Descripció de la recepta 2",
-        imatge: "imatge2.jpg"
-    },
-    {
-        titol: "Recepta 3: Botifarra amb seques",
-        descripcio: "Descripció de la recepta 3",
-        imatge: "imatge3.jpg"
-    },
-    {
-        titol: "Recepta 4: Cigrons amb arròs",
-        descripcio: "Descripció de la recepta 4",
-        imatge: "imatge4.jpg"
-    },
-    {
-        titol: "Recepta 5: Llenties amb xoriç",
-        descripcio: "Descripció de la recepta 5",
-        imatge: "imatge5.jpg"
-    },
-    {
-        titol: "Recepta 6: Flam amb nata",
-        descripcio: "Descripció de la recepta 6",
-        imatge: "imatge6.jpg"
+        titol: "Panacotta de torró amb escuma de torró",
+        imatge: "images/receptes/panacotta_torro.jpeg"
     },
     // Més receptes...
 ];

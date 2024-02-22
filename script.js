@@ -3,7 +3,7 @@ $(document).ready(function () {
         var searchText = $(this).val().toLowerCase();
         $('#searchResults').empty();
         if (searchText.length >= 3) {
-            $('h3, p').each(function () {
+            $('h3').each(function () {
                 var text = $(this).text().toLowerCase();
                 if (text.includes(searchText)) {
                     $('#searchResults').append($(this).clone());
@@ -31,12 +31,9 @@ function mostrarReceptes() {
         imageElement.src = recepta.imatge;
         var titleElement = document.createElement('h3');
         titleElement.textContent = recepta.titol;
-        var descriptionElement = document.createElement('p');
-        descriptionElement.textContent = recepta.descripcio;
 
         receptaElement.appendChild(imageElement);
         receptaElement.appendChild(titleElement);
-        receptaElement.appendChild(descriptionElement);
 
         container.appendChild(receptaElement);
     });
