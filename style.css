@@ -143,10 +143,9 @@ main div img {
 /* Botiga style */
 
 .footer_section {
-  position: fixed;
   width: 95%;
   bottom: 50px;
-  height: 10px;
+  height: 15px;
 }
 
 @media (max-width: 800px) {
