@@ -43,6 +43,14 @@ main p {
   padding-right: 5%;
 }
 
+.main_p_manteniment {
+  color: white;
+  text-align: center;
+  margin: 50px;
+  padding-left: 5%;
+  padding-right: 5%;  
+}
+
 .header_div {
   color: white;
   margin-top: 10px;
@@ -238,6 +246,7 @@ main div img {
 
 .receptes_txt ul {
   margin-left: 45px;
+  margin-right: 40px;
 }
 
 .receptes_txt ol {
