@@ -241,9 +241,15 @@ main div img {
   margin-left: 15px;
 }
 
+@media (max-width: 800px) {
+  .receptes_txt ol {
+    margin-right: 15px;
+  }
+}
+
 .receptes_footer_video {
 margin-left: -100vw;
-margin-top: -15vw;
+margin-top: -20vw;
 }
 
 @media (max-width: 800px) {
