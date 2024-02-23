@@ -149,6 +149,12 @@ main div img {
   height: 10px;
 }
 
+@media (max-width: 800px) {
+  .footer_section {
+    width: 65%;
+  }
+}
+
 /* Receptes style */
 
 .receptes_header_div {
@@ -177,6 +183,7 @@ main div img {
   margin-right: 10px;
 }
 
+
 .receptes_main_div img {
   width: 275px;
   border-radius: 5%;
@@ -192,6 +199,13 @@ main div img {
 .receptes_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 800px) {
+  .receptes_grid {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .receptes_img {
@@ -211,10 +225,23 @@ main div img {
   text-align: justify;
 }
 
+@media (max-width: 800px) {
+  .receptes_txt {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+}
+
 .receptes_txt ul {
   margin-left: 45px;
 }
 
 .receptes_txt ol {
   margin-left: 15px;
+}
+
+@media (max-width: 800px) {
+  .receptes_footer_video.responsive {
+    margin-left: -80px;
+  }
 }
