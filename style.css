@@ -99,10 +99,11 @@ a:active {
 }
 
 .main_img {
-  width: 40vw;
+  width: 35vw;
   max-width: 1000px;
   min-width: 300px;
   margin: auto;
+  margin-top: 40px;
 }
 
 main div img {
@@ -180,8 +181,8 @@ main div img {
   gap: 100px;
   text-align: center;
   justify-content: center;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
@@ -241,6 +242,7 @@ main div img {
 
 .receptes_txt ol {
   margin-left: 15px;
+  margin-right: 40px;
 }
 
 @media (max-width: 800px) {
