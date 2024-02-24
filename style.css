@@ -260,7 +260,6 @@ body header button::before {
 body header button:hover {
   color: white;
   border: 3px solid rgb(150,115,10);
-  @include neo
 }
 
 body header button:hover::before {
