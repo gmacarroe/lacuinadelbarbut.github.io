@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ca" class="html">
+
 <head>
     <title>lacuinadelbarbut</title>
     <link rel="stylesheet" href="style.css">
@@ -9,22 +10,45 @@
 <body>
     <header>
         <div>
-            <h2>Contacte</h2>
+            <h2>Contacta amb nosaltres</h2>
         </div>
     </header>
-    
+
     <main>
-        <p class="main_p_manteniment">Actualment estem treballant en aquesta secció, esperem que estigui en funcionament el més aviat possible!
+        <p class="main_p_manteniment">Actualment estem treballant en aquesta secció, esperem que estigui en funcionament
+            el més aviat possible!
             Gràcies per la comprensió!</p>
     </main>
-    
+
+    <div class="contact-form">
+        <h4 style="text-align: center;">L'equip de la Cuina del Barbut t'escolta!</h4>
+        <form action="../enviar_contacte.php" method="post">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correu electrònic:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Telèfon:</label>
+            <input type="text" id="phone" name="phone">
+
+            <label for="subject">Assumpte:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Missatge:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
     <footer class="footer_section">
         <a href="index.html">
             <script src="https://cdn.lordicon.com/lordicon.js"></script>
             <lord-icon src="https://cdn.lordicon.com/laqlvddb.json" trigger="hover" stroke="bold"
-                state="hover-partial-roll" colors="primary:#ffffff,secondary:#ffffff" style="width:50px;height:50px;margin-left: 10px;margin-top: -10px;">
+                state="hover-partial-roll" colors="primary:#ffffff,secondary:#ffffff"
+                style="width:50px;height:50px;margin-left: 10px;margin-top: -10px;">
             </lord-icon>
         </a>
     </footer>
 </body>
-</html>

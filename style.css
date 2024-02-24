@@ -362,3 +362,52 @@ body header button:hover::before {
     margin-left: -90px;
   }
 }
+
+/* Contacte */
+
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  .contact-form {
+    margin: 40px;
+    padding: 15px;
+  }
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  font-size: 15px;
+  font-weight: 800;
+  padding: 10px 20px;
+  background-color: rgb(150,115,10);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
