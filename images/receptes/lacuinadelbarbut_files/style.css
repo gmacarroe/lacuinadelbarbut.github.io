@@ -259,12 +259,11 @@ body header button::before {
 
 body header button:hover {
   color: white;
-  border: 3px solid rgb(150,115,10);
-  @include neo
+  border: 3px solid white
 }
 
 body header button:hover::before {
-  box-shadow: inset 0 0 0 10em rgb(150,115,10);
+  box-shadow: inset 0 0 0 10em rgb(80 80 80);
 }
  
 
