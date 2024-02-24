@@ -2,7 +2,7 @@ $(document).ready(function () {
     $('#searchInput').on('input', function () {
         var searchText = $(this).val().toLowerCase();
         $('#contenidor_receptes').empty();
-        if (searchText.length >= 3) {
+        if (searchText.length >= 1) {
             receptes.forEach(function (recepta) {
                 var text = recepta.titol.toLowerCase();
                 if (text.includes(searchText)) {
@@ -36,20 +36,28 @@ document.addEventListener('DOMContentLoaded', function () {
     mostrarReceptes();
 });
 
+var receptesShuffled = 0;
+
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
     }
+    receptesShuffled++;
     return array;
 }
 
 function mostrarReceptes() {
+
+    
     var container = document.getElementById('contenidor_receptes');
     container.innerHTML = '';
 
     // Barreja l'array de receptes
-    shuffleArray(receptes);
+    if (receptesShuffled < 1) {
+        shuffleArray(receptes);        
+    }
+
 
     receptes.forEach(function (recepta) {
 
