@@ -20,7 +20,7 @@ $(document).ready(function () {
                     $('#contenidor_receptes').append(receptaElement);
 
                     // Afegeix un event listener al div de la recepta per a l'acció de clic
-                    receptaElement.addEventListener('click', function() {
+                    receptaElement.addEventListener('click', function () {
                         // Redirigeix a la pàgina HTML corresponent
                         window.location.href = 'receptes/' + recepta.titol.toLowerCase().replace(/ /g, '_') + '.html';
                     });
@@ -29,6 +29,12 @@ $(document).ready(function () {
         } else {
             mostrarReceptes();
         }
+    });
+
+    $('#randomRecipeButton').on('click', function () {
+        var randomIndex = Math.floor(Math.random() * receptes.length);
+        var randomRecipe = receptes[randomIndex];
+        window.location.href = 'receptes/' + randomRecipe.titol.toLowerCase().replace(/ /g, '_') + '.html';
     });
 });
 
@@ -49,13 +55,13 @@ function shuffleArray(array) {
 
 function mostrarReceptes() {
 
-    
+
     var container = document.getElementById('contenidor_receptes');
     container.innerHTML = '';
 
     // Barreja l'array de receptes
     if (receptesShuffled < 1) {
-        shuffleArray(receptes);        
+        shuffleArray(receptes);
     }
 
 
@@ -75,7 +81,7 @@ function mostrarReceptes() {
         container.appendChild(receptaElement);
 
         // Afegeix un event listener al div de la recepta per a l'acció de clic
-        receptaElement.addEventListener('click', function() {
+        receptaElement.addEventListener('click', function () {
             // Redirigeix a la pàgina HTML corresponent
             window.location.href = 'receptes/' + recepta.titol.toLowerCase().replace(/ /g, '_') + '.html';
         });

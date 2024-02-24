@@ -172,9 +172,18 @@ main div img {
   align-items: center;
   justify-content: center;
   margin: 40px;
+  gap: 20px;
 }
 
 #searchInput {
+  background-color: whitesmoke;
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+#randomRecipeButton {
   background-color: whitesmoke;
   width: 300px;
   padding: 10px;
