@@ -193,6 +193,12 @@ main div img {
   margin-right: 20px;
 }
 
+@media (max-width: 800px) {
+  .receptes_main_div {
+    gap: 20px;
+  }
+}
+
 
 .receptes_main_div img {
   width: 275px;
