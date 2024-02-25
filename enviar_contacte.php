@@ -30,11 +30,16 @@ $body .= "Missatge:\n" . $message;
 
 // Configurar les opcions de correu electrònic
 $mailOptions = [
+    'host' => $phpmailer->Host,
+    'port' => $phpmailer->Port,
+    'username' => $phpmailer->Username,
+    'password' => $phpmailer->Password,
     'from' => $email,
     'to' => $to,
     'subject' => $subject,
     'body' => $body,
 ];
+
 
 // Enviar el correu electrònic
 if (sendMail($mailOptions)) {
