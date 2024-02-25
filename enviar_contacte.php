@@ -13,7 +13,6 @@ $phpmailer->Port = 2525;
 $phpmailer->Username = '074a4a6e089887';
 $phpmailer->Password = '8e1af2be2e82f6';
 
-
 // Recollir les dades del formulari
 $name = $_POST['name'];
 $email = $_POST['email'];
@@ -31,10 +30,6 @@ $body .= "Missatge:\n" . $message;
 
 // Configurar les opcions de correu electrònic
 $mailOptions = [
-    'host' => $smtpHost,
-    'port' => $smtpPort,
-    'username' => $smtpUsername,
-    'password' => $smtpPassword,
     'from' => $email,
     'to' => $to,
     'subject' => $subject,

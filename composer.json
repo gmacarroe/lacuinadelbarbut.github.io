@@ -1,0 +1,10 @@
+{
+    "name": "gmacarroe/lacuinadelbarbut",
+    "description": "Composer per a la cuina del barbut",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "license": "-",
+    "minimum-stability": "stable"
+}
