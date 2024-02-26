@@ -27,5 +27,9 @@ var receptes = [
         titol: "Panacotta de torró",
         imatge: "images/receptes/panacotta_torro.jpeg"
     },
+    {
+        titol: "Torradetes de Santa Teresa",
+        imatge: "images/receptes/torrades_teresa.jpeg"
+    },
     // Més receptes...
 ];
