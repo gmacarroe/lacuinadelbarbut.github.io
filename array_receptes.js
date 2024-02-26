@@ -31,5 +31,5 @@ var receptes = [
         titol: "Torradetes de Santa Teresa",
         imatge: "images/receptes/torrades_teresa.jpeg"
     },
-    // Més receptes...
+    // Més receptes... 
 ];
