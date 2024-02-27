@@ -20,4 +20,3 @@ if (mail($to, $subject, $body)) {
 } else {
     echo "Hi ha hagut un problema en enviar el missatge.";
 }
-?>

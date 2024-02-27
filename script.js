@@ -72,6 +72,7 @@ function mostrarReceptes() {
 
         var imageElement = document.createElement('img');
         imageElement.src = recepta.imatge;
+        imageElement.loading = "lazy";
         var titleElement = document.createElement('h3');
         titleElement.textContent = recepta.titol;
 
