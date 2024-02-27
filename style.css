@@ -10,6 +10,23 @@ html {
 
 /* Header */
 
+/* Copia de h2 a h1 */
+
+header h1 {
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  h1.responsive {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+
 header h2 {
   color: white;
   text-align: center;
@@ -63,6 +80,17 @@ main p {
   justify-content: space-between;
   margin-left: 10vw;
   margin-right: 10vw;
+}
+
+/* Copia de h2 a h1 */
+
+.header_nav h1 {
+  transition: all .5s ease-in-out;
+  transform: scale(1);
+}
+
+.header_nav h1:hover {
+  transform: scale(1.4);
 }
 
 .header_nav h2 {
