@@ -31,5 +31,13 @@ var receptes = [
         titol: "Torradetes de Santa Teresa",
         imatge: "images/receptes/torrades_teresa.webp"
     },
+    {
+        titol: "Galetes de gingebre i canyella",
+        imatge: "images/receptes/galetes_gingebre.webp"
+    },
+    {
+        titol: "Garrinet al forn",
+        imatge: "images/receptes/garrinet_forn.webp"
+    },
     // Més receptes... 
 ];
