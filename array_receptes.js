@@ -39,5 +39,21 @@ var receptes = [
         titol: "Garrinet al forn",
         imatge: "images/receptes/garrinet_forn.webp"
     },
+    {
+        titol: "Pollastre farcit",
+        imatge: "images/receptes/pollastre_farcit.webp"
+    },
+    {
+        titol: "Sopa de ceba",
+        imatge: "images/receptes/sopa_ceba.webp"
+    },
+    {
+        titol: "Arròs de costella de porc i camagrocs",
+        imatge: "images/receptes/arros_costella_camagrocs.webp"
+    },
+    {
+        titol: "Suflé de xocolata",
+        imatge: "images/receptes/sufle_xocolata.webp"
+    },
     // Més receptes... 
 ];
