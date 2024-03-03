@@ -48,7 +48,7 @@ var receptes = [
         imatge: "images/receptes/sopa_ceba.webp"
     },
     {
-        titol: "Arròs de costella de porc i camagrocs",
+        titol: "Arròs de costella i camagrocs",
         imatge: "images/receptes/arros_costella_camagrocs.webp"
     },
     {
