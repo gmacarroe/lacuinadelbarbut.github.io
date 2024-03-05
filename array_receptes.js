@@ -55,5 +55,17 @@ var receptes = [
         titol: "Suflé de xocolata",
         imatge: "images/receptes/sufle_xocolata.webp"
     },
+    {
+        titol: "Arròs verd",
+        imatge: "images/receptes/arros_verd.webp"
+    },
+    {
+        titol: "Croquetes de bolets",
+        imatge: "images/receptes/croquetes_bolets.webp"
+    },
+    {
+        titol: "Llenties estofades exprés",
+        imatge: "images/receptes/llenties_estofades.webp"
+    },
     // Més receptes... 
 ];
