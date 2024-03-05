@@ -67,5 +67,13 @@ var receptes = [
         titol: "Llenties estofades exprés",
         imatge: "images/receptes/llenties_estofades.webp"
     },
+    {
+        titol: "Pebrots farcits de bacallà",
+        imatge: "images/receptes/pebrots_farcits.webp"
+    },
+    {
+        titol: "Tiramisú de ceps",
+        imatge: "images/receptes/tiramisu_ceps.webp"
+    },
     // Més receptes... 
 ];
