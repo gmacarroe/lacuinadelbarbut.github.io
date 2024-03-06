@@ -1,3 +1,8 @@
+// Funció per eliminar accents d'una cadena de text
+function eliminarAccents(text) {
+    return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
 $(document).ready(function () {
     $('#searchInput').on('input', function () {
         var searchText = $(this).val().toLowerCase();
@@ -5,7 +10,7 @@ $(document).ready(function () {
         if (searchText.length >= 1) {
             receptes.forEach(function (recepta) {
                 var text = recepta.titol.toLowerCase();
-                if (text.includes(searchText)) {
+                if (eliminarAccents(text).includes(eliminarAccents(searchText))) {
                     var receptaElement = document.createElement('div');
                     receptaElement.classList.add('recepta');
 
@@ -22,7 +27,7 @@ $(document).ready(function () {
                     // Afegeix un event listener al div de la recepta per a l'acció de clic
                     receptaElement.addEventListener('click', function () {
                         // Redirigeix a la pàgina HTML corresponent
-                        window.location.href = 'receptes/' + recepta.titol.toLowerCase().replace(/ /g, '_') + '.html';
+                        window.location.href = 'receptes/' + eliminarAccents(recepta.titol.toLowerCase().replace(/ /g, '_')) + '.html';
                     });
                 }
             });
@@ -34,7 +39,7 @@ $(document).ready(function () {
     $('#randomRecipeButton').on('click', function () {
         var randomIndex = Math.floor(Math.random() * receptes.length);
         var randomRecipe = receptes[randomIndex];
-        window.location.href = 'receptes/' + randomRecipe.titol.toLowerCase().replace(/ /g, '_') + '.html';
+        window.location.href = 'receptes/' + eliminarAccents(randomRecipe.titol.toLowerCase().replace(/ /g, '_')) + '.html';
     });
 });
 
@@ -84,7 +89,7 @@ function mostrarReceptes() {
         // Afegeix un event listener al div de la recepta per a l'acció de clic
         receptaElement.addEventListener('click', function () {
             // Redirigeix a la pàgina HTML corresponent
-            window.location.href = 'receptes/' + recepta.titol.toLowerCase().replace(/ /g, '_') + '.html';
+            window.location.href = 'receptes/' + eliminarAccents(recepta.titol.toLowerCase().replace(/ /g, '_')) + '.html';
         });
     });
 }
