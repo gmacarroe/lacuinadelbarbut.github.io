@@ -75,5 +75,21 @@ var receptes = [
         titol: "Tiramisú de ceps",
         imatge: "images/receptes/tiramisu_ceps.webp"
     },
+    {
+        titol: "Nyoquis amb salsa de ceps",
+        imatge: "images/receptes/nyoquis_ceps.webp"
+    },
+    {
+        titol: "Fricandó de vedella",
+        imatge: "images/receptes/fricando_vedella.webp"
+    },
+    {
+        titol: "Farcellets de col",
+        imatge: "images/receptes/farcellets_col.webp"
+    },
+    {
+        titol: "Gohan de bolets",
+        imatge: "images/receptes/gohan_bolets.webp"
+    },
     // Més receptes... 
 ];
