@@ -91,5 +91,9 @@ var receptes = [
         titol: "Gohan de bolets",
         imatge: "images/receptes/gohan_bolets.webp"
     },
+    {
+        titol: "Carpaccio de remolatxa",
+        imatge: "images/receptes/carpaccio_remolatxa.webp"
+    },
     // Més receptes... 
 ];
