@@ -95,5 +95,21 @@ var receptes = [
         titol: "Carpaccio de remolatxa",
         imatge: "images/receptes/carpaccio_remolatxa.webp"
     },
+    {
+        titol: "Pasta amb ragú",
+        imatge: "images/receptes/pasta_ragu.webp"
+    },
+    {
+        titol: "Mousse de rom i cafè",
+        imatge: "images/receptes/mousse_rom.webp"
+    },
+    {
+        titol: "Mandonguilles Sueques (IKEA)",
+        imatge: "images/receptes/mandonguilles_sueques.webp"
+    },
+    {
+        titol: "Albergínies glacejades",
+        imatge: "images/receptes/alberginies_glacejades.webp"
+    },
     // Més receptes... 
 ];
